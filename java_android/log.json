@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building appium_tutorial_android 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tutorial_android ---
+[INFO] Deleting /Users/wenjinggong/java_android/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tutorial_android ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/wenjinggong/java_android/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tutorial_android ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tutorial_android ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/wenjinggong/java_android/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tutorial_android ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/wenjinggong/java_android/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tutorial_android ---
+[INFO] Surefire report directory: /Users/wenjinggong/java_android/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running appium.tutorial.android.AutomatingASimpleActionTest
+  test: one
+  test: two
+  test: four
+  test: three
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.225 sec - in appium.tutorial.android.AutomatingASimpleActionTest
+Running appium.tutorial.android.PageObjectPatternTest
+  test: pageObject
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.09 sec - in appium.tutorial.android.PageObjectPatternTest
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:31 min
+[INFO] Finished at: 2015-07-30T04:30:26-05:00
+[INFO] Final Memory: 17M/222M
+[INFO] ------------------------------------------------------------------------
